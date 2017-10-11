@@ -29,6 +29,6 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  kittens.append(name)  // "append" method adds element to end of array without altering original array
+  (...kittens, name)  // "append" method adds element to end of array without altering original array
   return kittens
 }
