@@ -29,6 +29,6 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  (...kittens, name)  // "append" method adds element to end of array without altering original array
+  (...kittens, name)  // spread operator "..." adds (appends) to end of array without altering original array
   return kittens
 }
