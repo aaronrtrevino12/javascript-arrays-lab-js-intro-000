@@ -40,10 +40,12 @@ function prependKitten(name){
 
 function removeLastKitten(){
   var cats = kittens.slice(0, kittens.length - 1)  // "slice" method removes last element without altering original array
+  // Note: The first argument is index that you want to include in the new array. Then we want to shortened the length of array by 1.
   return cats  // return new array
 }
 
 function removeFirstKitten(){
   var cats = kittens.slice(1)  // "slice" method removes first element without altering original array
+  // Note: Argument after the slice method is index you want to include in the new array. It automatically includes all elements that follow.
   return cats  // return new array
 }
