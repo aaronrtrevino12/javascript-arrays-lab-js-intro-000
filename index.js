@@ -39,6 +39,6 @@ function prependKitten(name){
 }
 
 function removeLastKitten(){
-  var newKittens = kittens.pop()  // "pop" method removes last element altering original array
-  return newKittens  // return new array
+  var cats = kittens.slice(0, kittens.length - 1)  // "pop" method removes last element altering original array
+  return cats  // return new array
 }
