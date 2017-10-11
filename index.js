@@ -22,3 +22,8 @@ function destructivelyRemoveLastKitten(){
   kittens.pop()  // "pop" method removes last element altering original array
   return kittens
 }
+
+function destructivelyRemoveFirstKitten(){
+  kittens.shift()  // "shift" method removes first element altering original array
+  return kittens
+}
