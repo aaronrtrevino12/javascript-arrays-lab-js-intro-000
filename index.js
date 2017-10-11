@@ -1,7 +1,7 @@
 const app = "I don't do much."
 
 function Arrays(){
-  beforeEach(){
+  function beforeEach(){
       window.kittens = ['Milo', 'Otis', 'Garfield'];
   }
 }
