@@ -27,3 +27,8 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift()  // "shift" method removes first element altering original array
   return kittens
 }
+
+function appendKitten(name){
+  kittens.append(name)  // "append" method adds element to end of array without altering original array
+  return kittens
+}
