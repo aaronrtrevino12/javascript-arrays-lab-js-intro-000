@@ -1,12 +1,12 @@
-const app = "I don't do much."
+// const app = "I don't do much."
 
-function Arrays(){
-  function beforeEach(){
-      window.kittens = ['Milo', 'Otis', 'Garfield'];
-  }
-}
+// function Arrays(){
+//   function beforeEach(){
+//       window.kittens = ['Milo', 'Otis', 'Garfield'];
+//   }
+// }
 
-const kittens = ["Milo", "Otis", "Garfield"]
+var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(name){
   kittens.push(name)
