@@ -30,10 +30,10 @@ function destructivelyRemoveFirstKitten(){
 
 function appendKitten(name){
   return [...kittens, name]  // spread operator "..." appends to end (if argument is last) of array without altering original array
-  // return kittens
+  // if we end function with "return kittens", it will return original array and not the temporarily appended version
 }
 
 function prependKitten(name){
   return [name, ...kittens]  // spread operator "..." prepends to beginning (if argument is first) of array without altering original array
-  // return kittens
+  // if we end function with "return kittens", it will return original array and not the temporarily prepended version
 }
