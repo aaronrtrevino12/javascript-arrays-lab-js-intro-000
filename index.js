@@ -37,3 +37,8 @@ function prependKitten(name){
   return [name, ...kittens]  // spread operator "..." prepends to beginning (if argument is first) of array without altering original array
   // if we end function with "return kittens", it will return original array and not the temporarily prepended version
 }
+
+function removeLastKitten(){
+  newKittens = kittens.pop()  // "pop" method removes last element altering original array
+  return newKittens
+}
