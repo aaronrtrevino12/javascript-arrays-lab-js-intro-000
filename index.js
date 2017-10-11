@@ -9,16 +9,16 @@
 var kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(name){
-  kittens.push(name)
+  kittens.push(name)  // "push" method adds element to end altering original array
   return kittens
 }
 
 function destructivelyPrependKitten(name){
-  kittens.unshift(name)
+  kittens.unshift(name)  // "unshift" method adds element to beginning altering original array
   return kittens
 }
 
 function destructivelyRemoveLastKitten(){
-  kittens.pop()
+  kittens.pop()  // "pop" method removes last element altering original array
   return kittens
 }
