@@ -1,5 +1,11 @@
 const app = "I don't do much."
 
+function Arrays(){
+  beforeEach(){
+      window.kittens = ['Milo', 'Otis', 'Garfield'];
+  }
+}
+
 const kittens = ["Milo", "Otis", "Garfield"]
 
 function destructivelyAppendKitten(name){
